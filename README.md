@@ -25,3 +25,8 @@ The feature screen also tells you how many items are selected on the Home screen
 <img width="265" alt="image" src="https://github.com/user-attachments/assets/37104dc6-5a3f-46a1-a2f8-166265a03426" />
 
 The Selection screen is a list of integers from 1 to 5 and you can select/deselect them. 0, 1 or more can be selected. You confirm the selection using the Apply button.
+
+---
+
+Problem: how to pass the selection back to the previous screen?
+Current implementation adds a callback to the navigation page object which is not serializable and hence can't survive Andorid configuration change.
