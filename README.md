@@ -21,4 +21,7 @@ The feature screen is similar, also contains 2 lists of integers which you can c
 The feature screen also tells you how many items are selected on the Home screen to simulate passing down data.
 
 ## Selection screen
+
+<img width="265" alt="image" src="https://github.com/user-attachments/assets/37104dc6-5a3f-46a1-a2f8-166265a03426" />
+
 The Selection screen is a list of integers from 1 to 5 and you can select/deselect them. 0, 1 or more can be selected. You confirm the selection using the Apply button.
